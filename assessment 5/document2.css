@@ -1,0 +1,168 @@
+.main{
+    border:1px solid black;
+    height:600px;
+    background-image: url("./sky.jpg");
+}
+
+
+body{
+    
+    border-left: 10px groove orange ;
+    border-right: 10px groove green;
+}
+.h1{
+    position: absolute;
+    top:-10px;
+    left:450px;
+}
+.h2{
+    position: absolute;
+    top:-10px;
+    left:570px;
+}
+.h3{
+    position: absolute;
+    top:-10px;
+    left:835px;
+}
+
+.d1{
+    border: 1px solid black;
+    height:600px;
+    width:100%;
+    border-style: none;
+}
+.c1{
+    animation: a1 10s infinite;
+    width:120%;
+    margin-top: 150px;
+    background-repeat: repeat-x;
+}
+@keyframes a1{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-200px);
+    }
+}
+
+.d2{
+    width:1311px;
+    position: absolute;
+    top:450px;
+    right:19px;
+}
+.c2{
+    animation: a2 3s linear infinite;
+    width:3000px;
+    height:220px;
+    position: absolute;
+    right:-40px;
+    bottom:-160px;
+    left:0px;
+    background-repeat: repeat-x;
+}
+@keyframes a2{
+    from{
+        transform:translateX(0px);
+    }
+    to{
+        transform:translateX(-500px); 
+    }
+
+}
+.d3{
+    width:100%;
+    position: absolute;
+    top:380px;
+    
+}
+.c3{
+    animation: a3 1s linear infinite;
+    width:350px;
+    height:150px;
+    position: absolute;
+    left:470px;
+    top:-50px;
+}
+@keyframes a3{
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.d4{
+    width:100%;
+    position: absolute;
+    top:380px;
+}
+.c4{
+    animation: a4 0.2s infinite;
+    width:60px;
+    height:60px;
+    position: absolute;
+    left:503px;
+    top:32px;
+}
+@keyframes a4{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.d5{
+    width:100%;
+    position: absolute;
+    top:380px;
+}
+.c5{
+    animation: a5 0.2s infinite;
+    width:60px;
+    height:60px;
+    position: absolute;
+    left:715px;
+    top:33px;
+}
+@keyframes a5{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.d6{
+    width:100%;
+    position: absolute;
+    top:50px;
+    left:580px;
+}
+.c6{
+    animation: a6 60s infinite;
+    width:60px;
+    height:60px;
+    position: absolute;
+    left:678px;
+    top:33px;
+}
+@keyframes a6{
+    100%{
+    transform:translate(-1400px);
+}
+}
+
+.d7{
+    width:100%;
+    position: absolute;
+    top:290px;
+    left:80px;
+}
+.c7{
+    width:60px;
+    height:60px;
+    position: absolute;
+    left:678px;
+    top:33px;
+}

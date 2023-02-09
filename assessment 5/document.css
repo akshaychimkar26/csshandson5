@@ -1,0 +1,115 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.d1{
+    height:800px;
+    width:100%;
+    position:absolute;
+    margin-left:550px;
+}
+.m1{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s;
+}
+.m2{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s, height 2s;
+}
+.m3{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s;
+}
+.m4{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s;
+}
+.m5{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s;
+}
+.m6{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s;
+}
+.m7{
+    border:1px solid black;
+    height:80px;
+    width:100px;
+    margin-bottom:20px;
+    background-color: rgba(20, 219, 20, 0.842);
+    transition: width 2s;
+}
+
+.m1:hover{
+    width:400px;
+    transition-timing-function: linear;
+}
+
+.m2:hover{
+    width:400px;
+    height:400px;
+    transition-timing-function: linear;
+}
+.m3:hover{
+    width:400px;
+    transition-timing-function: ease;
+}
+
+.m4:hover{
+    width:400px;
+    transition-timing-function: ease-in;
+}
+
+.m5:hover{
+    width:400px;
+    transition-timing-function: ease-in-out;
+}
+
+.m6:hover{
+    width:400px;
+    transition-timing-function: linear;
+}
+.m7:hover{
+    width:400px;
+    transition-timing-function: linear;
+}
+.a1{
+    font-size: 20px;
+    position: absolute;
+    left:630px;
+    top:800px;
+}
+.a2{
+    margin-top:5px;
+    font-size: 20px;
+    position: absolute;
+    left:630px;
+    top:820px;
+}
